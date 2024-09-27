@@ -1,0 +1,18 @@
+{
+  "model": "Cube",
+  "color": {
+    "color": "[0.0, 0.0, 1.0, 1.0]",
+    "rgb": "(0, 0, 255, 255)",
+    "sticker": "superSecretStickerSTSF.png",
+    "shiny_bool": 1
+  },
+  "layoutclass": "VehicleProperties",
+  "massprops": {
+    "mass": {
+      "Units": "kg",
+      "Value": 1000.0
+    }
+  },
+  "id": "CUBE_1000kg_Blue_USAF.json",
+  "scale": 1.0
+}

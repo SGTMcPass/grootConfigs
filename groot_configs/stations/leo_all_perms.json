@@ -1,0 +1,76 @@
+{
+  "id": "single_station.json",
+  "layoutclass": "Stations",
+  "stations": [
+    {
+      "name": "groot_server",
+      "host": "localhost",
+      "operators": [
+        {
+          "input_delay": 0.05,
+          "name": "pilot",
+          "num_permissions": 4,
+          "permissions": [
+            "SatA GNC",
+            "SatA Robo",
+            "SatA Cameras",
+            "SatB GNC",
+            "SatB Cameras"
+          ],
+          "num_controls": 1,
+          "controls": [
+            {
+              "name": "primary",
+              "port": 0
+            }
+          ],
+          "num_hud": 1,
+          "hud": [
+            {
+              "name": "video_display",
+              "pos": [
+                0,
+                0
+              ],
+              "size": [
+                640,
+                480
+              ],
+              "rcs_port": 5451,
+              "wcs_port": 8080
+            }
+          ],
+          "num_hdd": 1,
+          "hdd": [
+            {
+              "name": "data_display",
+              "hc": "client",
+              "hud": "video_display",
+              "pos": [
+                0,
+                400
+              ],
+              "size": [
+                640,
+                480
+              ]
+            }
+          ],
+          "cam": [
+            {
+              "pos": [
+                0,
+                960
+              ],
+              "size": [
+                640,
+                480
+              ]
+            }
+          ]
+        }
+      ],
+      "master": 1
+    }
+  ]
+}

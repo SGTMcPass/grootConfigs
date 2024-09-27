@@ -1,0 +1,62 @@
+{
+  "layoutclass": "OrbitalDynamics",
+  "layoutsubclass": "OrbitalDynamicsOrbitalElements",
+  "trans_init_option": "OrbitalElements",
+  "trans_init": {
+    "planet_name": "Earth",
+    "orbital_set": "SmaEccIncAscnodeArgperManom",
+    "semi_major_axis": {
+      "Value": 7076,
+      "Units": "km"
+    },
+    "eccentricity": 0,
+    "inclination": {
+      "Value": 98.2,
+      "Units": "degree"
+    },
+    "ascending_node": {
+      "Value": 0,
+      "Units": "degree"
+    },
+    "arg_periapsis": {
+      "Value": 90.0,
+      "Units": "degree"
+    },
+    "mean_anomaly": {
+      "Value": 0.0001,
+      "Units": "d"
+    }
+  },
+  "rot_init_option": "lvlh",
+  "rot_init": {
+    "body_frame": "composite_body",
+    "reference_name": "Earth",
+    "euler_seq": "Pitch_Yaw_Roll",
+    "euler_angles": {
+      "Value": [
+        0.0,
+        180,
+        0.0
+      ],
+      "Units": "degree"
+    },
+    "ang_vel": {
+      "Value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Units": "degree/s"
+    }
+  },
+  "ang_vel": {
+    "Value": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Units": "degree/s"
+  },
+  "id": "SMA7076_E00_INC98.2_MA-plus-0001.json",
+  "orbit_transfer_active": false
+}

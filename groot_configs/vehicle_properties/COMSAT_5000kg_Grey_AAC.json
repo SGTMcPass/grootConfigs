@@ -1,0 +1,18 @@
+{
+  "model": "COMSAT",
+  "color": {
+    "color": "[0.7490196078431373, 0.7490196078431373, 0.7490196078431373, 1.0]",
+    "rgb": "(191, 191, 191, 255)",
+    "sticker": "stickerAAC.png",
+    "shiny_bool": 1
+  },
+  "layoutclass": "VehicleProperties",
+  "massprops": {
+    "mass": {
+      "Units": "kg",
+      "Value": 5000.0
+    }
+  },
+  "id": "COMSAT_5000kg_Grey_AAC.json",
+  "scale": 1.0
+}

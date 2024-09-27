@@ -1,0 +1,28 @@
+{
+  "vehicles": [
+    {
+      "SatA": [
+        "/home/groot/groot_configs/vehicle_properties/CUBE_1000kg_Blue_USAF.json",
+        "Robotics/9_joints.json",
+        "/home/groot/groot_configs/orbital_dynamics/SMA35786_E00_INC00_MA-plus-00005.json",
+        "/home/groot/groot_configs/propulsion/12_jets_100N.json",
+        "FlyAround/10m_radius.json",
+        "Tanks/1_tank.json"
+      ]
+    },
+    {
+      "SatB": [
+        "/home/groot/groot_configs/vehicle_properties/COMSAT_5000kg_Grey_AAC.json",
+        "/home/groot/groot_configs/orbital_dynamics/SMA35786_E00_INC00.json",
+        "/home/groot/groot_configs/propulsion/12_jets_100N.json",
+        "Tanks/2_tanks.json"
+      ]
+    },
+    {
+      "GUISetup": [
+        "ControlUnits/server_operator.json",
+        "/home/groot/groot_configs/stations/leo_all_perms.json"
+      ]
+    }
+  ]
+}
